@@ -1,0 +1,52 @@
+
+body{
+  background-color: #1f2023;
+  color: #efefef
+}
+
+.header-container{
+  background-color: #6d59ba;
+  
+}
+
+.header-container .dropdown-menu {
+  background-color: #6d59ba !important; /* Match navbar background */
+}
+
+.header-container .dropdown-item:hover {
+  background-color: #6d59ba !important; /* Keep background same as dropdown on hover */
+}
+
+.header-container .navbar-brand,
+.header-container .nav-link,
+.header-container .dropdown-item,
+.header-container .dropdown-toggle {
+  color: #efefef !important;
+}
+
+.header-container .nav-link:hover,
+.header-container .dropdown-item:hover,
+.header-container .dropdown-toggle:hover {
+  color: #ffffff !important;
+}
+
+
+/* Challenge container */
+.challenge-container {
+  background-color: #2a2b30;
+  color: #efefef;
+  max-width: 1200px;
+  margin: 16px auto 0;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-left: 4px solid #6d59ba;
+}
+
+/* mobile friendly responsiveness */
+@media (max-width: 768px) {
+  .challenge-container{
+    padding: 16px;
+    margin: 8px 8px 0;
+  }
+}
