@@ -17,6 +17,7 @@ export default function Header() {
                             <NavDropdown.Item href="reactchallenge1">Challenge 1</NavDropdown.Item>
                             <NavDropdown.Item href="reactchallenge2">Challenge 2</NavDropdown.Item>
                             <NavDropdown.Item href="reactchallenge3">Challenge 3</NavDropdown.Item>
+                            <NavDropdown.Item href="reactchallenge4">Challenge 4</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
