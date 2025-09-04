@@ -8,6 +8,7 @@ import Homepage from './pages/Homepage.jsx';
 import Error from './pages/Error.jsx';
 import ReactChallenge1 from './pages/reactChallenges/challenge1.jsx';
 import ReactChallenge2 from './pages/reactChallenges/challenge2.jsx';
+import ReactChallenge3 from './pages/reactChallenges/challenge3.jsx';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: '/reactchallenge2',
         element: <ReactChallenge2/>
+      },
+      {
+        path: '/reactchallenge3',
+        element: <ReactChallenge3/>
       },
       {
         path: 'error',
